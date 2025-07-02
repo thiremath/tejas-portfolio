@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tejas Hiremath | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #014f86;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    header a {
+      color: white;
+      text-decoration: none;
+    }
+    header a:hover {
+      text-decoration: underline;
+    }
+    nav {
+      text-align: center;
+      background-color: #0077b6;
+      padding: 1rem;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      color: #014f86;
+      border-bottom: 2px solid #90e0ef;
+      padding-bottom: 0.3rem;
+    }
+    .project, .publication, .experience-item {
+      margin-bottom: 1.5rem;
+    }
+    a {
+      color: #0077b6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      background-color: #caf0f8;
+    }
+    ul {
+      margin-top: 0.5rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    strong, b {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tejas Hiremath</h1>
+    <p>Software Developer | Data Engineer | Research Enthusiast</p>
+    <p>Binghamton, NY | (607) 296-8187 | <a href="mailto:thiremath@binghamton.edu">thiremath@binghamton.edu</a></p>
+    <p><a href="https://linkedin.com/in/hiremathtejas">LinkedIn</a> | <a href="https://github.com/thiremath">GitHub</a> | <a href="https://leetcode.com/u/tejas642">Leetcode</a></p>
+  </header>
+
+  <nav>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#publications">Publications</a>
+    <a href="#skills">Skills</a>
+  </nav>
+
+  <main>
+    <section id="education">
+      <h2>Education</h2>
+      <p><strong>MS in Computer Science</strong>, Binghamton University (2023–2025) | <strong>GPA: 3.90/4.00</strong></p>
+      <p><strong>Relevant Courses:</strong> Design Patterns, Algorithms, Operating Systems, Distributed Systems, Machine Learning, DB Systems</p>
+      <p><strong>BTech in Computer Science and Engineering</strong>, MIT World Peace University (2018–2022) | <strong>GPA: 3.76/4.00</strong></p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <a href="https://github.com/thiremath/Comprehensive-Digital-Impact-Analysis-of-the-2024-US-Elections" target="_blank">
+          <strong>Digital Impact Analysis of the 2024 US Elections</strong>
+        </a>
+        <ul>
+          <li><strong>Designed</strong> a multithreaded continuous crawler to collect <strong>40M+ Reddit/4chan posts</strong>, implementing <strong>adaptive rate-limiting</strong>.</li>
+          <li><strong>Integrated</strong> a hate speech detection model (<strong>95% F1-score</strong>) into a robust <strong>ETL pipeline</strong> for toxic discourse analysis.</li>
+          <li><strong>Delivered</strong> a scalable <strong>Flask dashboard</strong> used by <strong>200+ analysts</strong> to explore sentiment shifts and election engagement.</li>
+        </ul>
+      </div>
+      <div class="project">
+        <a href="https://github.com/thiremath/quiz-app" target="_blank"><strong>Scalable Quiz App with Microservices</strong></a>
+        <ul>
+          <li><strong>Developed</strong> a distributed quiz platform using <strong>Spring Boot microservices</strong> with <strong>Eureka</strong>, <strong>API Gateway</strong>, and <strong>Redis caching</strong>.</li>
+          <li><strong>Implemented</strong> <strong>JWT security</strong> and modularized code using <strong>Java Design Patterns</strong>, achieving 40% latency reduction.</li>
+          <li><strong>Built</strong> a responsive <strong>React.js frontend</strong> and deployed via <strong>Docker</strong> and <strong>GitHub Actions CI/CD</strong>, reducing errors by 30%.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="experience-item">
+        <strong>Software Developer</strong> | CRX Electrical Industry | Mumbai, India | June 2021 - July 2023
+        <ul>
+          <li><strong>Developed</strong> and maintained scalable backend systems using <strong>Java (Spring Boot)</strong>, <strong>PostgreSQL</strong>, and <strong>Redis</strong>, contributing to a <strong>40% improvement in system latency</strong>.</li>
+          <li><strong>Delivered</strong> secure REST APIs with <strong>JWT authentication</strong> in collaboration with cross-functional teams.</li>
+          <li><strong>Containerized</strong> microservices with <strong>Docker</strong>, implemented structured logging and <strong>CI/CD pipelines</strong>.</li>
+          <li><strong>Participated</strong> in <strong>Agile ceremonies</strong> and code reviews, improving team performance and delivery efficiency.</li>
+        </ul>
+      </div>
+      <div class="experience-item">
+        <strong>Data Engineering & Automation Intern</strong> | Aditya Management Consultancy Services | Remote | Mar 2021 - Jun 2021
+        <ul>
+          <li><strong>Developed</strong> real-time <strong>Python data pipelines</strong> for automotive diagnostics, improving latency by <strong>25%</strong>.</li>
+          <li><strong>Built</strong> interactive visualizations to detect ECU anomalies, <strong>cutting resolution time by 30%</strong>.</li>
+          <li><strong>Implemented</strong> unit/integration tests with <strong>95% coverage</strong>, ensuring deployment stability.</li>
+          <li><strong>Collaborated</strong> with hardware engineers to convert raw sensor data into actionable insights.</li>
+        </ul>
+      </div>
+      <div class="experience-item">
+        <strong>Coding & Robotics Instructor</strong> | Tyler Hill Camp | Pennsylvania, USA | Jun 2024 - Aug 2024
+        <ul>
+          <li><strong>Taught</strong> <strong>500+ students</strong> in <strong>Scratch, Python, and LEGO Robotics</strong>, increasing coding proficiency by <strong>30%</strong>.</li>
+          <li><strong>Designed</strong> <strong>20+ lesson plans</strong> for various skill levels, achieving a <strong>90% project completion rate</strong>.</li>
+          <li><strong>Fostered</strong> collaboration via team challenges, improving engagement by <strong>40%</strong> with gamified learning.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <div class="publication">
+        <a href="https://ieeexplore.ieee.org/document/10088330" target="_blank">
+          <strong>Extraction of River Networks from Satellite Images using Image Processing & Deep Learning (IEEE)</strong>
+        </a>
+      </div>
+      <div class="publication">
+        <a href="https://link.springer.com/chapter/10.1007/978-981-19-5224-1_49" target="_blank">
+          <strong>A Survey: Extraction of River Networks from Satellite Images (Springer Nature)</strong>
+        </a>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <p><strong>Languages:</strong> Java, Python, C/C++, JavaScript, SQL</p>
+      <p><strong>Frontend:</strong> React.js, HTML/CSS, Bootstrap, EJS</p>
+      <p><strong>Backend:</strong> Spring Boot, Node.js, Express.js, REST APIs</p>
+      <p><strong>Databases:</strong> PostgreSQL, MySQL, MongoDB, Oracle PL/SQL</p>
+      <p><strong>Tools:</strong> Git, Docker, Redis, GitHub Actions</p>
+      <p><strong>Certifications:</strong> AWS Cloud Practitioner (Ongoing), NPTEL Java, Web Dev Bootcamp</p>
+    </section>
+  </main>
+
+  <footer>
+  </footer>
+</body>
+</html>
